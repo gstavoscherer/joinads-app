@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "ecdc3959-a852-4dd6-ac21-f82153f1928f",
+		"name": "JoinADS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31498684"
+	},
+	"item": [
+		{
+			"name": "Domain",
+			"item": [
+				{
+					"name": "CriarDomínio",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "CriarDominio",
+							"originalRequest": {
+								"method": "POST",
+								"header": []
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "ListarTodosDominios",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarDominio",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "AtualizarDominio",
+							"originalRequest": {
+								"method": "PUT",
+								"header": []
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "DeletarDominio",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Block",
+			"item": [
+				{
+					"name": "CriarBloco",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "CriarBloco",
+							"originalRequest": {
+								"method": "POST",
+								"header": []
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "ListarTodosBlocos",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "AtualizarBloco",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "AtualizarBloco",
+							"originalRequest": {
+								"method": "PUT",
+								"header": []
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "DeletarBloco",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
